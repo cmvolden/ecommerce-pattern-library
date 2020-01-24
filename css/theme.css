@@ -1,0 +1,14 @@
+:root {
+  --color-pink: #F84C84;
+  --color-red: #E0042C;
+  --color-blue: #089CC4;
+  --color-yellow: #F8CC04;
+  --color-neutral: #F2F7F8;
+
+  --font-primary: "aktiv-grotesk-condensed", sans-serif;
+  --font-secondary: "barricada-pro", serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
