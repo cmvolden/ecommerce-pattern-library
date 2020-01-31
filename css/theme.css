@@ -3,6 +3,7 @@
   --color-red: #E0042C;
   --color-blue: #089CC4;
   --color-yellow: #F8CC04;
+  --color-black: #000;
   --color-neutral: #F2F7F8;
 
   --font-primary: "aktiv-grotesk-condensed", sans-serif;
@@ -13,56 +14,70 @@ html {
   font-family: var(--font-primary);
 }
 
-/* Focus on color, font-weight, font-style & font-family */
-
 h1 {
-  font: "barricada pro" #F8CC04;
+  font-family: var(--font-secondary);
+  color: var(--color-yellow);
 }
 
 h2 {
-  font: "barricada pro" #F84C84;
+  font-family: var(--font-secondary);
+  color: var(--color-pink);
 }
 
 h3 {
-  font: "aktiv-grotesk-condensed" #000;
-}
-
-h4 {
-  font: "aktiv-grotesk-condensed" #000;
+  font-family: var(--font-primary);
+  color: var(--color-black);
   text-transform: uppercase;
 }
 
-ul,
-ol,
-dl, {
-  font: "aktiv-grotesk-condensed", serif #000;
+h4 {
+  font-family: var(--font-primary);
+  color: var(--color-black);
+}
+
+ul {
+  font-family: var(--font-primary);
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+ol {
+  font-family: var(--font-primary);
+  color: var(--color-neutral);
+  text-decoration: none;
+}
+
+dl {
+  font-family: var(--font-primary);
+  color: var(--color-black);
+  text-decoration: none;
 }
 
 a {
-  font: "aktiv-grotesk-condensed", serif #F84C84;
+  font-family: var(--font-primary);
+  color: var(--color-pink);
 }
 
 blockquote {
-  font-family: "aktiv-grotesk-condensed", serif;
-  font-style: italic;
-  color: #089CC4;
+  font-family: var(--font-primary);
+  color: var(--color-blue);
 }
 
 cite {
-  font-family: "aktiv-grotesk-condensed", serif;
-  color: #089CC4;
+  font-family: var(--font-primary);
+  color: var(--color-blue);
 }
 
 em {
-  font-family: "aktiv-grotesk-condensed", serif;
+  font-family: var(--font-primary);
+  color: var(--color-black);
   font-weight: bold;
-  color: #000;
   }
 
 strong {
-  font-family: "aktiv-grotesk-condensed", serif;
+  font-family: var(--font-primary);
+  color: var(--color-red);
   font-weight: bold;
-  color: #E0042C;
 }
 
 del {
@@ -82,8 +97,9 @@ dfn {
 }
 
 i {
+  font-family: var(--font-primary);
   font-style: italic;
-  color: #089CC4;
+  color: var(--color-blue);
 }
 
 b {
@@ -95,7 +111,8 @@ mark {
 }
 
 q {
-
+  font-family: var(--font-primary);
+  color: var(--color-blue);
 }
 
 s {
