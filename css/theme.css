@@ -32,44 +32,37 @@ h4 {
   text-transform: uppercase;
 }
 
-h5 {
-
-}
-
-h6 {
-
-}
-
-ul {
-
-}
-
-ol {
-
-}
-
-dl {
-
+ul,
+ol,
+dl, {
+  font: "aktiv-grotesk-condensed", serif #000;
 }
 
 a {
-
+  font: "aktiv-grotesk-condensed", serif #F84C84;
 }
 
 blockquote {
-
+  font-family: "aktiv-grotesk-condensed", serif;
+  font-style: italic;
+  color: #089CC4;
 }
 
 cite {
-
+  font-family: "aktiv-grotesk-condensed", serif;
+  color: #089CC4;
 }
 
 em {
-
+  font-family: "aktiv-grotesk-condensed", serif;
+  font-weight: bold;
+  color: #000;
   }
 
 strong {
-
+  font-family: "aktiv-grotesk-condensed", serif;
+  font-weight: bold;
+  color: #E0042C;
 }
 
 del {
@@ -89,7 +82,8 @@ dfn {
 }
 
 i {
-
+  font-style: italic;
+  color: #089CC4;
 }
 
 b {
