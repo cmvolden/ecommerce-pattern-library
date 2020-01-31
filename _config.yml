@@ -2,4 +2,22 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Chewed"
+  description: |
+    A non-profit organization that sells celebrities' donated pieces of used chewing chewing gum.
+    Proceeds go to city clean up foundations.
   font_url: "https://use.typekit.net/zen1stl.css"
+  colors:
+    background: "--color-neutral"
+    accent: "--color-red"
+    patterns:
+      brand.logos: "--color-neutral"
+  rationales:
+    typefaces.primary: |
+      Aktiv Grotesk Condensed was selected for its readable yet modern appearance, and its compatibility with Barricada. Aktiv is to be used for all body copy, lists, and most situations.
+    typefaces.secondary: |
+      Barricada was chosen  because its fun and bubbly, but can definitely be taken seriously as well. An energetic serif — this is no Comic Sans!
+    colors.accent: |
+      Chewed does not have primary colors, as we do not discriminate. Every color of gum is the best color! For headers, pick the color that provides the best contrast for the item you are styling (ex. h1 is yellow, and should be used on dark photos). Black should be used for all body text.
+    colors.neutral: |
+      The single neutral color is a very light blue which is used for the header and footer backgrounds. This color combined with white is reminiscent of the shine of light off of a glass bubblegum dispenser, as well as providing the clean feeling associated with a cleaned up city!

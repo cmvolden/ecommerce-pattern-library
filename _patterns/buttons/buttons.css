@@ -1,0 +1,37 @@
+.btn {
+  background-color: var(--color-red);
+  border-color: var(--color-red);
+  color: var(--color-neutral);
+  border-radius: 25px;
+}
+
+.btn:hover {
+  background-color: var(--color-blue);
+  border-color: var(--color-blue);
+  color: var(--color-neutral);
+  border-radius: 25px;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: var(--color-black);
+  border-color: var(--color-black);
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-black);
+  color: var(--color-neutral);
+  border-color: var(--color-black);
+}
+
+.btn-light {
+  background-color: var(--color-pink);
+  color: var(--color-neutral);
+  border-color: var(--color-pink);
+}
+
+.btn-light:hover {
+  background-color: var(--color-neutral);
+  color: var(--color-pink);
+  border-color: var(--color-pink);
+}
