@@ -1,4 +1,4 @@
 .subscribe-card {
-  border: 5px solid;
-  border-color: --color-yellow: #F8CC04;
+  border: 5px solid var(--color-yellow);
+  transition: all .2s linear
 }
