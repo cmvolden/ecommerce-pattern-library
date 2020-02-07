@@ -3,6 +3,7 @@
   border-color: var(--color-red);
   color: var(--color-neutral);
   border-radius: 25px;
+  transition: all .3s linear;
 }
 
 .btn:hover {
