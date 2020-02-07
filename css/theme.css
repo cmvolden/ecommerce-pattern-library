@@ -25,12 +25,17 @@ h2 {
 }
 
 h3 {
+  font-family: var(--font-secondary);
+  color: var(--color-blue);
+}
+
+h4 {
   font-family: var(--font-primary);
   color: var(--color-black);
   text-transform: uppercase;
 }
 
-h4 {
+h5 {
   font-family: var(--font-primary);
   color: var(--color-black);
 }

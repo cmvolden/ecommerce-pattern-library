@@ -1,12 +1,7 @@
 .subscribe-card {
   border: 3px solid var(--color-yellow);
-  max-width: 610px;
 }
 
 .subscribe-text {
   color: var(--color-pink);
-}
-
-.product-card {
-  max-width: 300px;
 }
