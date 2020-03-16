@@ -1,0 +1,10 @@
+title: "Banners"
+description: |
+  There is only one banner, and it is located at the top or beginning of the main website page.
+
+
+patterns:
+  main-banner:
+    title: "Main Banner"
+    description: |
+      The banner's background photo should only be a dark themed photo with brand related color accents.

@@ -1,0 +1,21 @@
+title: "Cards"
+description: |
+  Cards should be used for each product listed, for core informational pieces, and for the email subscription box.
+
+
+patterns:
+  icon-card:
+    title: "Icon Card"
+    description: |
+      This card should be used along with its associated icon. Everything should be centered, and it should use the basic button as a call to action to learn more.
+    width: "20em"
+  product:
+    title: "Product"
+    description: |
+      The product card is used on the home page and within the products page to showcase the variety of products available in a simple aesthetic free of borders and other colors. The ghost button should always be used for product cards with a call-to-action "Details" to click to find out more details about the item.
+    width: "15em"
+  subscribe:
+    title: "Subscribe"
+    description: |
+      This card is used solely for the subscribe function and uses the light button. It should be placed at the bottom of the home page near the footer.
+    width: "28em"

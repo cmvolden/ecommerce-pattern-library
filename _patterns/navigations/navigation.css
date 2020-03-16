@@ -1,0 +1,47 @@
+.tool-bar {
+  text-align: right;
+}
+
+.add-to-text,
+.footer-nav-text,
+.tool-bar-text,
+.main-nav-text {
+  color: var(--color-black);
+}
+
+.add-to-text:hover,
+.footer-nav-text:hover,
+.tool-bar-text:hover,
+.main-nav-text:hover {
+  color: var(--color-pink);
+}
+
+.side-menu {
+  border-radius: 0 50px 50px 0;
+  background-color: var(--color-pink);
+}
+
+.side-menu a {
+  color: var(--color-neutral);
+  list-style-type: none;
+}
+
+.side-menu a:hover {
+  color: var(--color-red);
+}
+
+.sub-menu {
+  padding-left: 1em;
+}
+
+/* .add-to {
+
+} */
+
+/* .social-nav {
+
+} */
+
+/* .footer-nav {
+  list-style-type: none;
+} */

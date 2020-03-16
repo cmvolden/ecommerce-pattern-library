@@ -1,0 +1,53 @@
+title: "Forms"
+description: |
+  Forms should be used in the checkout page, and the subscribe section.
+
+
+patterns:
+  basic-reqd:
+    title: "Required Basic Field"
+    description: |
+      This field should be used for required text fields like First Name,Last Name, and credit card information.
+    width: "20em"
+  basic:
+    title: "Optional Basic Field"
+    description: |
+      This field should be used for non-required information.
+    width: "20em"
+  phone:
+    title: "Phone Number Field"
+    description: |
+      This field should only be used for capturing a phone number, and is not required.
+    width: "20em"
+  email:
+    title: "E-Mail Field"
+    description: |
+      This field should only be used for capturing an e-mail address, and is required when logging in to view previous purchases, wish list, favourites, etc., but not for making a purchase.
+    width: "20em"
+  password:
+    title: "Password Field"
+    description: |
+      This field should only be used for capturing an account password, and is required when logging in to view previous purchases, wish list, favourites, etc.
+    width: "20em"
+  checkbox:
+    title: "Checkbox"
+    description: |
+      This field should be used when a user is making a purchase. They may check a box off if their shipping address is the same as their billing address.
+    width: "20em"
+    padding: 1em
+  checkbox-reqd:
+    title: "Required Checkbox"
+    description: |
+      This checkbox should be used when the user needs to agree to receive the newsletter, or to terms and services.
+    width: "20em"
+    padding: 1em
+  search:
+    title: "Search Field"
+    description: |
+      This field should be used for the search bar only.
+    width: "20em"
+  subscribe:
+    title: "Subscribe Field"
+    description: |
+      This field should be used for the subscribe to newsletter card only.
+    width: "20em"

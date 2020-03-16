@@ -68,7 +68,6 @@ cite {
 em {
   font-family: var(--font-primary);
   color: var(--color-black);
-  font-weight: bold;
   }
 
 strong {

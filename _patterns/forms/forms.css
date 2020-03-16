@@ -1,0 +1,33 @@
+.input-field {
+  border-color: var(--color-black);
+  border-width: 3px;
+}
+
+.search-field {
+  border-color: var(--color-yellow);
+  border-width: 3px;
+}
+
+[type="checkbox"] + label::before {
+  border-color: var(--color-yellow);
+}
+
+[type="checkbox"] + label::after {
+  border-color: var(--color-yellow);
+}
+
+
+.error-message {
+  display: none;
+  background-color: var(--color-yellow);
+  color: var(--color-black);
+}
+
+.error-message-highlighted {
+  background-color: var(--color-yellow);
+  color: var(--color-black);
+}
+
+.optional-flag {
+  color: #999;
+}

@@ -1,0 +1,30 @@
+title: "Navigations & Sections"
+description: |
+  Navigation styles should be used for all link groupings such as the product categories in the header, and privacy links in the footer
+
+patterns:
+  tool-bar:
+    title: "Tool Bar"
+    description: |
+      This navigation is a required part of the header and must be placed to the right side.
+  main-nav:
+    title: "Header Product Categories"
+    description: |
+      This navigation is a required part of the header and must be placed directly below the combination of the logo/search bar/tool bar, and centered.
+  side-menu:
+    title: "Side Menu"
+    description: |
+      This navigation should take up 1/5 of the grid on desktops, but should not be shown on smaller sized screens.
+    width: "12.5em"
+  footer-nav:
+    title: "Footer Links"
+    description: |
+      This navigation must always be used in the footer to allow customers to navigate to the contact page, privacy policy, etc. It is to be set to the left side of the footer, except for on small screens where it is to be centered.
+  social-nav:
+    title: "Social Links"
+    description: |
+      This navigation must always be used in the footer to allow customers to navigate to the social media pages. It is to be set to the right side of the footer, except for on small screens where it is to be centered.
+  add-to-section:
+    title: "Add-To Section"
+    description: |
+      This section must always be used on product pages to the right of the product description.
