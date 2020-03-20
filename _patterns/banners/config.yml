@@ -5,6 +5,16 @@ description: |
 
 patterns:
   main-banner:
+    fields:
+      - name: heading
+        type: string
+        example: "They chewed it and now you can own it."
+      - name: text
+        type: string
+        example: "That’s right - you can have The Wknd’s chewed up old gum mounted on your wall. The ultimate conversation starter."
+      - name: image
+        type: string
+        example: "artist-1"
     title: "Main Banner"
     description: |
       The banner's background photo should only be a dark themed photo with brand related color accents.
