@@ -21,3 +21,6 @@ patternbot:
       Chewed does not have primary colors, as we do not discriminate. Every color of gum is the best color! For headers, pick the color that provides the best contrast for the item you are styling (ex. h1 is yellow, and should be used on dark photos). Black should be used for all body text.
     colors.neutral: |
       The single neutral color is a very light blue which is used for the header and footer backgrounds. This color combined with white is reminiscent of the shine of light off of a glass bubblegum dispenser, as well as providing the clean feeling associated with a cleaned up city!
+  layouts:
+    default: |
+      The default layout should be used for almost every page as it includes the primary header and footer. It should not be used in the checkout pages, as we do not want the customer to accidentally click out of their purchase.
