@@ -3,11 +3,13 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .banner-img {
   max-height: 600px;
   overflow: hidden;
+
 }
 
 .banner-desc {
