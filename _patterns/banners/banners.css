@@ -1,17 +1,16 @@
 .banner-text {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .banner-img {
   max-height: 600px;
   overflow: hidden;
-
 }
 
 .banner-desc {
   color: var(--color-pink);
+  font-weight: 500;
 }

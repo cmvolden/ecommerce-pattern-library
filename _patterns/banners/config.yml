@@ -15,6 +15,14 @@ patterns:
       - name: image
         type: string
         example: "artist-1"
+      - name: button_text
+        type: string
+        example: "Learn More"
+        required: false
+      - name: button_url
+        type: url
+        example: "/giving-back/"
+        required: false
     title: "Main Banner"
     description: |
       The banner's background photo should only be a dark themed photo with brand related color accents.

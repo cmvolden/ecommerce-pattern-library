@@ -5,17 +5,38 @@ description: |
 
 patterns:
   basic:
+    fields:
+      - name: text
+        type: string
+        example: "Learn More"
+      - name: url
+        type: url
+        example: "/giving-back/"
     title: "Basic"
     description: |
       Default to using the basic button. It should always be used for icon cards, and banners with dark backgrounds.
     width: "12em"
     background: "--color-black"
   ghost:
+    fields:
+      - name: text
+        type: string
+        example: "Details"
+      - name: url
+        type: url
+        example: "/product-page/"
     title: "Ghost"
     description: |
       The ghost button is specifically for product listings cards, where it will be placed below the image, title, and description of the item.
     width: "12em"
   light:
+    fields:
+      - name: text
+        type: string
+        example: "Subscribe"
+      - name: url
+        type: url
+        example: "/confirmation/"
     title: "Light"
     description: |
       The light button is specifically for action buttons such as within the subscribe card.
