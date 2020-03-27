@@ -5,6 +5,9 @@ description: |
 
 patterns:
   main-banner:
+    title: "Main Banner"
+    description: |
+      The banner's background photo should only be a dark themed photo with brand related color accents.
     fields:
       - name: heading
         type: string
@@ -23,6 +26,3 @@ patterns:
         type: url
         example: "/giving-back/"
         required: false
-    title: "Main Banner"
-    description: |
-      The banner's background photo should only be a dark themed photo with brand related color accents.

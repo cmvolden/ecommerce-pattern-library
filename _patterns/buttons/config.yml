@@ -37,6 +37,14 @@ patterns:
       - name: url
         type: url
         example: "/confirmation/"
+      - name: button_text
+        type: string
+        example: "Search"
+        required: false
+      - name: button_url
+        type: url
+        example: "/#/"
+        required: false
     title: "Light"
     description: |
       The light button is specifically for action buttons such as within the subscribe card.
