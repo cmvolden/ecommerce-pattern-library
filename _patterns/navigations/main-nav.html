@@ -1,20 +1,20 @@
 <div class="main-nav text-center">
   <nav class="island-1-2">
     <ul class="text-upper list-group-inline push-0">
-      <li>
+      <li class="{% if page.highlight_nav == 'featured' %}current{% endif %}">
         <a class="main-nav-text milli push-0 push-r" href="/products/">featured</a>
       </li>
-      <li>
-        <a class="main-nav-text milli push-0 push-r" href="/products/">comedians</a>
+      <li class="{% if page.highlight_nav == 'comedians' %}current{% endif %}">
+        <a class="main-nav-text milli push-0 push-r" href="#">comedians</a>
       </li>
-      <li>
-        <a class="main-nav-text milli push-0 push-r" href="/products/">actors</a>
+      <li class="{% if page.highlight_nav == 'actors' %}current{% endif %}">
+        <a class="main-nav-text milli push-0 push-r" href="#">actors</a>
       </li>
-      <li>
-        <a class="main-nav-text milli push-0 push-r" href="/products/">musicians</a>
+      <li class="{% if page.highlight_nav == 'musicians' %}current{% endif %}">
+        <a class="main-nav-text milli push-0 push-r" href="#">musicians</a>
       </li>
-      <li>
-        <a class="main-nav-text milli push-0" href="/products/">sale</a>
+      <li class="{% if page.highlight_nav == 'sale' %}current{% endif %}">
+        <a class="main-nav-text milli push-0" href="#">sale</a>
       </li>
     </ul>
   </nav>

@@ -17,7 +17,7 @@ patterns:
         example: "That’s right - you can have The Wknd’s chewed up old gum mounted on your wall. The ultimate conversation starter."
       - name: image
         type: string
-        example: "artist-1"
+        example: "/images/artist-1.jpg"
       - name: button_text
         type: string
         example: "Learn More"
