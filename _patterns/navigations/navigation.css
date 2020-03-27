@@ -35,8 +35,11 @@
 }
 
 .current {
-  border: 1px var(--color-blue);
-  border-radius: 25px;
+  font-weight: 700;
+}
+
+.current a {
+  color: var(--color-blue);
 }
 
 /* .add-to {
