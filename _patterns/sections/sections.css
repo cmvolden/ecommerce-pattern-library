@@ -1,0 +1,4 @@
+.featured-card {
+  border-top: solid 3px var(--color-blue);
+  border-bottom: solid 3px var(--color-blue);
+}

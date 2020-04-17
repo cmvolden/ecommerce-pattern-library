@@ -1,0 +1,13 @@
+title: "Sections"
+description: |
+  Sections are
+
+patterns:
+  featured:
+    title: "Featured Section"
+    description: |
+      This section is to be placed on the home page to display 3 items available for sale which Chewed would like to draw more attention to.
+  add-to-section:
+    title: "Add-To Section"
+    description: |
+      This section must always be used on product pages to the right of the product description.
