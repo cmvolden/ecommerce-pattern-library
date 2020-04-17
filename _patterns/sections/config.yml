@@ -11,3 +11,7 @@ patterns:
     title: "Add-To Section"
     description: |
       This section must always be used on product pages to the right of the product description.
+  icon-cards:
+    title: "Icon Cards"
+    description: |
+      This section includes the cards which inform visitors of our intentions and resources.

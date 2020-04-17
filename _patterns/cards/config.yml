@@ -9,6 +9,24 @@ patterns:
     description: |
       This card should be used along with its associated icon. Everything should be centered, and it should use the basic button as a call to action to learn more.
     width: "20em"
+    fields:
+      - name: heading
+        type: string
+        example: "Giving Back"
+      - name: text
+        type: string
+        example: "Yep, paying $14,000 for a piece of used gum is kind of a lot. But all the profits go to cleaning up towns and cities that need it the most!"
+      - name: image
+        type: string
+        example: "/images/icons.svg#causes"
+      - name: button_text
+        type: string
+        example: "Details"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
   product:
     title: "Product"
     description: |
@@ -17,20 +35,20 @@ patterns:
     fields:
       - name: heading
         type: string
-        example: ""
+        example: "Britney Spears"
       - name: text
         type: string
-        example: ""
+        example: "$14,000"
       - name: image
         type: string
-        example: "/images/gum-pink.jpg"
+        example: "/images/gum-mint.jpg"
       - name: button_text
         type: string
-        example: ""
+        example: "Details"
         required: false
       - name: button_url
         type: url
-        example: "//"
+        example: "/products/"
         required: false
   subscribe:
     title: "Subscribe"
