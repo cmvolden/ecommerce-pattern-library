@@ -30,7 +30,7 @@ patterns:
   product:
     title: "Product"
     description: |
-      The product card is used on the home page and within the products page to showcase the variety of products available in a simple aesthetic free of borders and other colors. The ghost button should always be used for product cards with a call-to-action "Details" to click to find out more details about the item.
+      The product card is used on the home page and within the products page to showcase the variety of products available, in a simple aesthetic free of borders and other colors. The ghost button should always be used for product cards with a call-to-action "Details" to click to find out more details about the item.
     width: "15em"
     fields:
       - name: heading

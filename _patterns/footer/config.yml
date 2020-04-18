@@ -1,0 +1,10 @@
+title: "Footer"
+description: |
+  There is only one footer which must be included on every page, and not altered in any way.
+
+
+patterns:
+  footer:
+    title: "Main Footer"
+    description: |
+      The main footer to be used at the very bottom of all pages.

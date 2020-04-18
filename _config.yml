@@ -24,12 +24,13 @@ patternbot:
   layouts:
     default: |
       The default layout should be used for almost every page as it includes the primary header and footer. It should not be used in the checkout pages, as we do not want the customer to accidentally click out of their purchase.
-  collections:
-    products:
-      output: true
-
-  defaults:
-    - scope:
-        path: _products
-      values:
-        layout: product
+    product: |
+      This layout is to be used for product pages.
+collections:
+  products:
+    output: true
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product

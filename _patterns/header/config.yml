@@ -1,0 +1,9 @@
+title: "Header"
+description: |
+  There is only one header, to be used at the very beginning of all pages. Nothing is to be placed above it.
+
+patterns:
+  header:
+    title: "Header"
+    description: |
+      This is the main header.
