@@ -1,6 +1,6 @@
 title: "Banners"
 description: |
-  There is only one banner, and it is located at the top or beginning of the main website page.
+  There is only one banner per page, and it is located at the top or beginning of the main website page, under the header.
 
 
 patterns:
@@ -26,3 +26,7 @@ patterns:
         type: url
         example: "/giving-back/"
         required: false
+  sale-banner:
+    title: "Sale Banner"
+    description: |
+      This banner is to be used at the top of the Sale page, instead of the main banner.
